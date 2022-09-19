@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/budget"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint=" Total Budget RM:"
+        android:inputType="number"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/budget1"
+        android:layout_below="@id/budget"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Date"
+        android:inputType="date"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/budget2"
+        android:layout_below="@id/budget1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Category"
+        android:layout_height="wrap_content"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/budget3"
+        android:layout_below="@id/budget2"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Spending RM:"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/budget4"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:text="Proceed"
+       android:layout_below="@id/budget3"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content"/>
+
+
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linear"
+        android:visibility="gone"
+        android:background="#636363"
+        android:elevation="5dp"
+        android:layout_height="60dp">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Please Wait"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

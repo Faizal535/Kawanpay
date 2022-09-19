@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accounractivity">
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:layout_marginStart="15dp"
+        android:id="@+id/hhhh"
+        android:layout_marginTop="18dp"
+        android:layout_height="30dp"/>
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Personal info"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/black"
+        android:layout_marginStart="55dp"
+        android:id="@+id/basic"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        android:id="@+id/pop"
+        android:layout_below="@id/basic"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="First Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+                android:id="@+id/texto1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        android:id="@+id/pop1"
+        android:layout_below="@id/pop"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Last Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/texto2"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/pop1"
+        android:orientation="vertical"
+        android:id="@+id/pop2"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Gender"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+             android:id="@+id/texto3"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

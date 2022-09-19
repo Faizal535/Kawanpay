@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Basic Info"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:id="@+id/basic"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/basic"
+        android:id="@+id/first"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:hint="First Name"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/first_name"
+            android:layout_height="60dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/first"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Last Name"
+        android:id="@+id/bnm"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/last_name"
+            android:layout_height="60dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_below="@id/bnm"
+        android:layout_marginTop="25dp"
+        android:text="Male"
+        android:id="@+id/male"
+        android:textSize="18sp"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content"/>
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_below="@id/bnm"
+        android:layout_marginTop="25dp"
+        android:text="Female"
+        android:id="@+id/female"
+        android:textSize="18sp"
+        android:layout_marginStart="115dp"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <com.google.android.material.chip.Chip
+        android:layout_width="match_parent"
+        android:background="@color/purple_700"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        app:chipCornerRadius="20dp"
+        android:text="Save"
+        android:id="@+id/Asd"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:chipBackgroundColor="@color/purple_500"
+        android:layout_height="60dp"/>
+
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_below="@id/male"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linear"
+        android:background="#636363"
+        android:visibility="gone"
+        android:elevation="5dp"
+        android:layout_height="60dp">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Please Wait"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="14dp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

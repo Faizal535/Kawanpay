@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1031341159864",
+    "firebase_url": "https://kawan-pay-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kawan-pay",
+    "storage_bucket": "kawan-pay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031341159864:android:9d9dff4c49694ac5d70b4d",
+        "android_client_info": {
+          "package_name": "com.kawan.pay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031341159864-da9ofnn0ur7bfcd4qv11effk38gkdhj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kawan.pay",
+            "certificate_hash": "74a6882689f68e59d62bf90149850e801644452a"
+          }
+        },
+        {
+          "client_id": "1031341159864-bdieuonksg0tahg4kra2p86okss870bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMasrGujkXua5Vs6ogz9arncwhaPWVE5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031341159864-bdieuonksg0tahg4kra2p86okss870bj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
